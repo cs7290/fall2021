@@ -17,7 +17,7 @@ Cutting edge data viz with web technologies.
 10. 22 & 23 Nov -- Thanksgiving Break (no classes this week)
 11. 29 & 30 Nov
 12. 6 & 7 Dec
-* 13 & 14 Dec -- Final Exams
+13. 13 & 14 Dec -- Final Exams
 
 # Overview
 
