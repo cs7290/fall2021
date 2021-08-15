@@ -7,9 +7,9 @@ Cutting edge data viz with web technologies.
 
 * Intro
   * Where innovation takes places
-    * Data science
-    * Data journalism
-    * [Deep learning](https://playground.tensorflow.org/)
+    * Data science (Python, R)
+    * Data journalism (nytimes.com)
+    * [AI](https://playground.tensorflow.org/)
     * ~~Business Intelligence (BI)~~
   * D3
     * SVG
