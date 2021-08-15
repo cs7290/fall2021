@@ -9,7 +9,7 @@ Cutting edge data viz with web technologies.
   * Where innovation takes places
     * Data science
     * Data journalism
-    * ~~Business Intelligence~~
+    * ~~Business Intelligence (BI)~~
   * D3
     * SVG
     * Canvas
