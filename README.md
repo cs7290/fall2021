@@ -9,6 +9,7 @@ Cutting edge data viz with web technologies.
   * Where innovation takes places
     * Data science
     * Data journalism
+    * [Deep learning](https://playground.tensorflow.org/)
     * ~~Business Intelligence (BI)~~
   * D3
     * SVG
@@ -19,6 +20,7 @@ Cutting edge data viz with web technologies.
   * 3D
     * [three.js](https://threejs.org/)
     * [deck.gl](https://deck.gl/)
+    * [scatter-gl](https://github.com/PAIR-code/scatter-gl)
 
 # Topics
 
