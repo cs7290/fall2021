@@ -6,13 +6,19 @@ Cutting edge data viz with web technologies.
 # Overview
 
 * Intro
+  * Where innovation takes places
+    * Data science
+    * Data journalism
+    * ~~Business Intelligence~~
   * D3
     * SVG
     * Canvas
-  * Maps
+  * Slippy maps
     * https://leafletjs.com/
     * https://maplibre.org/
   * 3D
+    * [three.js](https://threejs.org/)
+    * [deck.gl](https://deck.gl/)
 
 # Topics
 
