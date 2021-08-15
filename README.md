@@ -14,6 +14,7 @@ Cutting edge data viz with web technologies.
   * D3
     * SVG
     * Canvas
+    * [D3 gallery](https://observablehq.com/@d3/gallery)
   * Slippy maps
     * https://leafletjs.com/
     * https://maplibre.org/
