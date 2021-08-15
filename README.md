@@ -3,6 +3,22 @@
 
 Cutting edge data viz with web technologies.
 
+# Calendar
+
+1. 20 & 21 Sep
+2. 27 & 28 Sep
+3. 4 & 5 Oct
+4. 11 & 12 Oct -- 11 Oct is a holiday (Indigenous People's Day)
+5. 18 & 19 Oct
+6. 25 & 26 Oct
+7. 1 & 2 Nov 
+8. 8 & 9 Nov 
+9. 15 & 16 Nov 
+10. 22 & 23 Nov -- Thanksgiving Break (no classes this week)
+11. 29 & 30 Nov
+12. 6 & 7 Dec
+* 13 & 14 Dec -- Final Exams
+
 # Overview
 
 * Intro
