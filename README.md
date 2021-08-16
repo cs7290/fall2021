@@ -19,6 +19,18 @@ Cutting edge data viz with web technologies.
 12. 6 & 7 Dec
 13. 13 & 14 Dec -- Final Exams
 
+# D3 in action -- Elijah Meeks
+
+* D3 fundamentals
+  * Chapters 1-3 -- data binding, data loading, creating graphical elements, scales, color, CSS, SVG
+  * Chapter 4 -- line charts, axes, box plots
+  * Chapter 5 -- pie charts, violin plots, histograms, sankey diagrams, word clouds
+* Complex data visualization
+  * Chapter 6 -- hierarchical data viz: treemaps, dendrograms
+  * Chapter 7 -- network data
+  * Chapter 8 -- geodata
+* Advanced techniques
+
 # Overview
 
 * Intro
