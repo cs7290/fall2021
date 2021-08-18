@@ -3,6 +3,43 @@
 
 Cutting edge data viz with web technologies.
 
+# Syllabus ideas
+
+* [D3 gallery](https://observablehq.com/@d3/gallery) -- observable notebook
+  * The gallery is organized as follows
+    * animation
+    * interaction
+    * analysis
+    * hierarchies
+    * networks
+    * bars
+    * lines
+    * areas
+    * dots
+    * radial
+    * annotation
+    * maps
+    * essays
+    * just for fun
+* [Interactive Data Visualization for the Web](https://learning.oreilly.com/library/view/interactive-data-visualization/9781491921296/ch02.html#idm140093208128112) -- oreilly.com
+  * Chapter 2: Introducing D3
+    * What D3 is. What it isn't.
+    * Lists a bunch of libraries (alternatives to D3 -- Leaflet, Highcharts, Google Charts, etc.) 
+  * Chapter 3: (Web) Technology fundamentals
+  * Chapter 4: Setup (unnecessary)
+  * Chapter 5: Drawing with data
+  * Chapter 6: Divs, attributes, making a bar chart
+  * Chapter 7: Scales
+  * Chapter 8: Axes
+  * Chapter 9: Updates, transitions and motion
+  * Chapter 10: Interactivity
+  * Chapter 11: Using paths (line and area charts)
+  * Chapter 12: Selections
+  * Chapter 13: Layouts
+  * Chapter 14: Geomapping
+  * Chapter 15: Exports (unnecessary)
+  * Chapter 16: Project walk through
+
 # Calendar
 
 1. 20 & 21 Sep
@@ -14,10 +51,10 @@ Cutting edge data viz with web technologies.
 7. 1 & 2 Nov 
 8. 8 & 9 Nov 
 9. 15 & 16 Nov 
-10. 22 & 23 Nov -- Thanksgiving Break (no classes this week)
+10. Thanksgiving -- 22 & 23 Nov -- (no classes this week)
 11. 29 & 30 Nov
 12. 6 & 7 Dec
-13. 13 & 14 Dec -- Final Exams
+13. Final Exams -- 13 & 14 Dec
 
 # Overview
 
