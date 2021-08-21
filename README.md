@@ -34,7 +34,7 @@ Cutting edge data viz with web technologies.
 # Overview
 
 * Intro
-  * Where innovation takes places
+  * The modern browser
     * Data science (Python, R)
     * Data journalism (nytimes.com)
     * [AI](https://playground.tensorflow.org/)
