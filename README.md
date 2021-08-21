@@ -3,6 +3,10 @@
 
 Cutting edge data viz with web technologies.
 
+# Syllabus
+
+* [Previous version of DS 7290](https://northeastern-datalab.github.io/cs7290/fa17/)
+
 # Calendar
 
 1. 20 & 21 Sep
