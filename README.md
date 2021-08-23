@@ -3,10 +3,43 @@
 
 Cutting edge data viz with web technologies.
 
+# Syllabus
+
+1. 20 & 21 Sep
+  * 20 Sep
+    * What you'll learn
+    * What's expected of you?
+    * How to get the most out of the course
+    * Introduction to observable
+      * [Observable's not JavaScript](https://observablehq.com/@observablehq/observables-not-javascript) -- mbostock notebook
+      * [JavaScript in Observable](https://observablehq.com/collection/@observablehq/javascript-in-observable) -- collection
+      * [Integrations](https://observablehq.com/collection/@observablehq/framework-app-integrations) -- collection
+      * [An Observable Notebook](https://www.tophtucker.com/observable-docco/index.js.html) -- tophtucker.com
+    * Whirlwind tour of web technologies
+  * 21 Sep
+2. 27 & 28 Sep
+3. 4 & 5 Oct
+4. 11 & 12 Oct -- 11 Oct is a holiday (Indigenous People's Day)
+5. 18 & 19 Oct
+6. 25 & 26 Oct
+7. 1 & 2 Nov 
+8. 8 & 9 Nov 
+9. 15 & 16 Nov 
+10. Thanksgiving -- 22 & 23 Nov -- (no classes this week)
+11. 29 & 30 Nov
+12. 6 & 7 Dec
+13. Final Exams -- 13 & 14 Dec
+
+# Evaluation
+
+* Short projects 50%
+* Class Participation 20%
+* Term Project 30%
+
 # Syllabus ideas
 
 * [D3 gallery](https://observablehq.com/@d3/gallery) -- observable notebook
-  * The gallery is organized as follows
+  * The D3 gallery is organized as follows...
     * animation
     * interaction
     * analysis
@@ -26,7 +59,7 @@ Cutting edge data viz with web technologies.
     * What D3 is. What it isn't.
     * Lists a bunch of libraries (alternatives to D3 -- Leaflet, Highcharts, Google Charts, etc.) 
   * Chapter 3: (Web) Technology fundamentals
-  * Chapter 4: Setup (unnecessary)
+  * Chapter 4: Setup (unnecessary, thanks to observable)
   * Chapter 5: Drawing with data
   * Chapter 6: Divs, attributes, making a bar chart
   * Chapter 7: Scales
