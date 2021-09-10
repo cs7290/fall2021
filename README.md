@@ -1,4 +1,6 @@
 
 # CS 7290 -- Fall 2021
 
-Let's go!
+## TODO
+
+* Set the main branch to "main", not "master"
