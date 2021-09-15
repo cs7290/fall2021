@@ -14,7 +14,7 @@
 ## Assignment for next week
 
 * There's some coding and some reading
-* Check [assignment01.md](./assignment01.md) for a reading list. 
+* Check [assignment01.md](./assignment01.md) for both
 * Check Canvas for submission instructions
 
 ## In-class demo: collaboration with Observablehq
