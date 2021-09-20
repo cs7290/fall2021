@@ -1,7 +1,7 @@
 
 # Week 2
 
-## Overview
+## References
 
 * [Javascript for Python Programmers](https://observablehq.com/@ballingt/javascript-for-python-programmers)
   * [Introduction to Code](https://observablehq.com/@observablehq/introduction-to-code)
