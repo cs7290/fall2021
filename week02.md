@@ -12,6 +12,7 @@
   * [Observable Inputs](https://observablehq.com/@observablehq/inputs)
   * [Hello, Inputs!](https://observablehq.com/@observablehq/hello-inputs)
   * [Input Table ](https://observablehq.com/@observablehq/input-table)
+* [Introduction to Imports](https://observablehq.com/@observablehq/introduction-to-imports)
 * [Introduction to HTML](https://observablehq.com/@observablehq/introduction-to-html)
 * [Observable Plot](https://observablehq.com/@observablehq/plot)
 * [Introduction to Embedding](https://observablehq.com/@observablehq/introduction-to-embedding)
