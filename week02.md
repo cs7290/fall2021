@@ -3,7 +3,7 @@
 
 ## Overview
 
-* [Javascript for Python programmers](https://observablehq.com/@ballingt/javascript-for-python-programmers)
+* [Javascript for Python Programmers](https://observablehq.com/@ballingt/javascript-for-python-programmers)
 * [Observable for Jupyter Users](https://observablehq.com/@observablehq/observable-for-jupyter-users)
 * [Introduction to HTML](https://observablehq.com/@observablehq/introduction-to-html)
 * [Introduction to Data](https://observablehq.com/@observablehq/introduction-to-data)
