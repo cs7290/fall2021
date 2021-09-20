@@ -3,9 +3,10 @@
 
 ## Assignments & reading
 
-* [Assignment 01](./assignment01.md)
+* [Assignment 01](./assignment01.md) -- due 19 Sep
 
 ## Class notes
 
-* [Week 1 (day 1)](./week01.md)
-  * [day 2](./week01b.md)
+* [Week 1](./week01.md) -- 13 Sep
+  * [day 2](./week01b.md) -- 14 Sep
+* [Week 2](./week02.md) -- 20 Sep 
