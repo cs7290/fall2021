@@ -6,7 +6,7 @@
 * [Javascript for Python Programmers](https://observablehq.com/@ballingt/javascript-for-python-programmers)
   * [Introduction to Code](https://observablehq.com/@observablehq/introduction-to-code)
 * [Observable for Jupyter Users](https://observablehq.com/@observablehq/observable-for-jupyter-users)
-  * [Observabe's not JavaScript](https://observablehq.com/@observablehq/observables-not-javascript)
+  * [Observable's not JavaScript](https://observablehq.com/@observablehq/observables-not-javascript)
 * [Introduction to Data](https://observablehq.com/@observablehq/introduction-to-data)
 * [Observable Inputs](https://observablehq.com/collection/@observablehq/inputs) -- the collection
   * [Observable Inputs](https://observablehq.com/@observablehq/inputs)
