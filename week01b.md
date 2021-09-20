@@ -57,8 +57,9 @@ Aspirational goals for the next couple/several weeks (subject to change)
 
 * Next week
   * Observable fundamentals
-    * [Introduction to code](https://observablehq.com/@observablehq/introduction-to-code)
-    * [Introduction to HTML](https://observablehq.com/@observablehq/introduction-to-html) in Observable
+    * [Introduction to Data](https://observablehq.com/@observablehq/introduction-to-html)
+    * [Introduction to Code](https://observablehq.com/@observablehq/introduction-to-code)
+    * [Introduction to HTML](https://observablehq.com/@observablehq/introduction-to-html)
   * Basic charts -- [Observable Plot](https://observablehq.com/@observablehq/plot)
   * UI components
     * [Observable inputs](https://observablehq.com/@observablehq/inputs)
@@ -182,7 +183,6 @@ Use d3.json() to load the earthquake data into the notebook you just created
 
 Modify the earthquake data to conform to the airports data model
 
-* Look at the example in [d3.dsv() API reference documentation](https://github.com/d3/d3-fetch#dsv)
 * Look at the example in [d3.dsv() API reference documentation](https://github.com/d3/d3-fetch#dsv)
 
 ## My Earthquakes
