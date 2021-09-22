@@ -1,15 +1,15 @@
 
 # ASSIGNMENT 01 -- gh-pages and observable
 
-* The assignment includes coding and reading (below)
-* Due: Monday, 20 Sep 
+* The assignment (below) includes coding and reading
+* Due: Midnight on Sunday, 19 Sep 
   * Check Canvas for submission details
 * Learning goals
   * Set up a gh-pages site
-  * Basic HTML page with a little CSS
-  * Intro to JavaScript and Observable notebooks
-* Provide feedback -- ask questions!!
-  * In class, with piazza or during office hours
+  * Create a minimal HTML page with just a little CSS
+  * Begin working with JavaScript in Observable notebooks
+* Provide feedback -- especially if this seems too new!!
+  * Ask questions in class or with piazza or during office hours
 
 ## Coding
 
