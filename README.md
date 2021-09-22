@@ -4,6 +4,7 @@
 ## Assignments & reading
 
 * [Assignment 01](./assignment01.md) -- due 19 Sep
+* [Assignment 02](./assignment02.md) -- due 26 Sep
 
 ## Class notes
 
