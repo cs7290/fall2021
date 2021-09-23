@@ -11,4 +11,4 @@
 * [Week 1 (day 1)](./week01.md) -- 13 & 14 Sep
   * [day 2](./week01b.md)
 * [Week 2](./week02.md) -- 20 & 21 Sep
-  * [html.md](./html.md)
+  * [html](./html.md) -- solution to assignment 01
