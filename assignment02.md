@@ -21,13 +21,15 @@
   * If you're not sure what to use for data, contact me -- either office hours or arrange a time to connect on Teams
 * Visualize the data with [Observable Plot](https://observablehq.com/@observablehq/plot)
   * Something basic is fine.
-  * In your notebook, describe the purpose/meaning of the visualization (in a couple sentenced)
+  * In your notebook, describe the purpose/meaning of the visualization (in a couple sentences)
+  * Make sure you cite any and all references that you used (data sources, publications, notebooks, websites, etc.)
 * Embed the visualization in your gh-pages site
   * Create a new page on your site or use the page that you created in Assignment #1 last week
-  * Add some descriptive text that explains to the reader what it is they're looking at and why it's intersting.
+  * Add some descriptive text that explains to the reader what it is they're looking at and why it's interesting.
+  * Note: the audience for your website may be different than the audience for your Observable notebook
 * This entire assignment need not take a lot of coding. 
   * See Canvas for submission instructions.
-  * Extra Credit: based on peer review -- major awards will go to the 3 submissions that rank at the top.
+  * Extra Credit: major awards for up to 3 submissions (criteria: clean well-documented code, compelling story)
 
 ## Reading
 
