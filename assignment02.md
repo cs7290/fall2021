@@ -29,7 +29,7 @@
   * Note: the audience for your website may be different than the audience for your Observable notebook
 * This entire assignment need not take a lot of coding. 
   * See Canvas for submission instructions.
-  * Extra Credit: major awards for up to 3 submissions (criteria: clean well-documented code, compelling story)
+  * Extra Credit: major awards for 3 submissions announced next week (criteria: clean well-documented code, compelling story)
 
 ## Reading
 
