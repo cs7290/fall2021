@@ -2,7 +2,7 @@
 # ASSIGNMENT 03 -- Mini-Project
 
 * The assignment (below) includes coding and reading
-* Due: Midnight on Sunday, 3 Aug
+* Due: Midnight on Sunday, 3 Oct
   * Check Canvas for submission details
 * Learning goals
   * Interactive dashboard
