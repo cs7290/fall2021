@@ -5,7 +5,7 @@
 
 * [Assignment 01](./assignment01.md) -- due 19 Sep
 * [Assignment 02](./assignment02.md) -- due 26 Sep
-* [Assignment 03](./assignment03.md) -- due 3 Aug
+* [Assignment 03](./assignment03.md) -- due 3 Oct
 
 ## Class notes
 
