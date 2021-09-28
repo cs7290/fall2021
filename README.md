@@ -5,6 +5,7 @@
 
 * [Assignment 01](./assignment01.md) -- due 19 Sep
 * [Assignment 02](./assignment02.md) -- due 26 Sep
+* [Assignment 03](./assignment03.md) -- due 3 Aug
 
 ## Class notes
 
@@ -18,6 +19,6 @@
   * [Introduction to HTML](https://observablehq.com/@observablehq/introduction-to-html)
   * [Observable Inputs](https://observablehq.com/@observablehq/inputs)
   * [Hello, Inputs!](https://observablehq.com/@observablehq/hello-inputs)
-* Week 3 -- 27 & 28 Sep
+* [Week 3](./week03.md) -- 27 & 28 Sep
   * [Observable Plot](https://observablehq.com/@observablehq/plot)
   * [Dashboard](https://observablehq.com/@mbostock/dashboard)
