@@ -15,7 +15,7 @@
 Use a technique from [Animation Loops](https://observablehq.com/@mbostock/animation-loops) 
 to animate the [SVG Circle](https://observablehq.com/d/991595f4b70d9f06) 
 (the solution to Assignment #2)
-so that it bounces off the walls of the SVG.
+so that the circle bounces off the walls of the SVG.
 
 ## Reading
 
