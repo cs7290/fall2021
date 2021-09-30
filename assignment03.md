@@ -19,7 +19,7 @@ so that it bounces off the walls of the SVG.
 
 ## Reading
 
-Beware of a possible quiz on the reading.
-
 * [Plot Exploration: Penguins](https://observablehq.com/@observablehq/plot-exploration-penguins)
 * [Plot Exploration: Weather](https://observablehq.com/@observablehq/plot-exploration-weather)
+
+Beware of a possible quiz on the reading.
