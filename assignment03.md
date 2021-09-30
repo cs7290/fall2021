@@ -1,21 +1,25 @@
 
-# ASSIGNMENT 03 -- Mini-Project
+# ASSIGNMENT 03
 
 * The assignment (below) includes coding and reading
 * Due: Midnight on Sunday, 3 Oct
   * Check Canvas for submission details
 * Learning goals
-  * Interactive dashboard
-  * Embedded in a web page
-  * Tell a story with your data (and minimal, complmentary words)
-* Provide feedback -- especially if you think we're going too fast!!
+  * Introduction to animation
+  * Practice with the Observable Plot API
+* Ask questions -- especially if you're stuck or you think we're going too fast!!
   * Ask questions in class or with piazza or during office hours
 
 ## Coding
 
-* Build on last week's assignment or use an entirely new dataset.
-* Extra Credit: major awards for up to 3 submissions (criteria: clean well-documented code, compelling story)
+Use a technique from [Animation Loops](https://observablehq.com/@mbostock/animation-loops) 
+to animate the [SVG Circle](https://observablehq.com/d/991595f4b70d9f06) 
+(the solution to Assignment #2)
+so that it bounces off the walls of the SVG.
 
 ## Reading
 
-* TBD
+Beware of a possible quiz on the reading.
+
+* [Plot Exploration: Penguins](https://observablehq.com/@observablehq/plot-exploration-penguins)
+* [Plot Exploration: Weather](https://observablehq.com/@observablehq/plot-exploration-weather)
