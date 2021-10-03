@@ -17,6 +17,14 @@ to animate the [SVG Circle](https://observablehq.com/d/991595f4b70d9f06)
 (the solution to Assignment #2)
 so that the circle bounces off the walls of the SVG.
 
+Note that [Animation Loops](https://observablehq.com/@mbostock/animation-loops) doesn't use SVG.
+It is animating a circle on a [canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) context 
+that's created with [DOM.context3d()](https://github.com/observablehq/stdlib#DOM_context2d).
+We haven't dealt with canvas (yet).
+The assignment is to animate the SVG circle that we worked with in class.
+Hint: The most straightforward assignment solution 
+involves use of [now](https://github.com/observablehq/stdlib/blob/main/README.md#now) in Option 3.
+
 ## Reading
 
 * [Plot Exploration: Penguins](https://observablehq.com/@observablehq/plot-exploration-penguins)
