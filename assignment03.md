@@ -22,7 +22,8 @@ It is animating a circle on a [canvas](https://developer.mozilla.org/en-US/docs/
 that's created with [DOM.context3d()](https://github.com/observablehq/stdlib#DOM_context2d).
 We haven't dealt with canvas (yet).
 The assignment is to animate the SVG circle that we worked with in class.
-Hint: The most straightforward assignment solution 
+You'll have to modify the code in here: [SVG Circle](https://observablehq.com/d/991595f4b70d9f06).
+Hint: The most straightforward approach
 involves use of [now](https://github.com/observablehq/stdlib/blob/main/README.md#now) in Option 3.
 
 ## Reading
