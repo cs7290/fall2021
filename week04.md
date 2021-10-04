@@ -46,6 +46,9 @@
 * [Introduction to Mutable State](https://observablehq.com/@observablehq/introduction-to-mutable-state)
 * Look the cell called "mutableWalls"
 * Reproduce this cell with an SVG
+* [the solution](https://observablehq.com/d/67483f66e715c57a)
+
+**STOPPED HERE**
 
 ## Projects
 
