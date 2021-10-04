@@ -7,6 +7,10 @@
 * [Assignment 02](./assignment02.md) -- due 26 Sep
 * [Assignment 03](./assignment03.md) -- due 3 Oct
 
+## Reading
+
+[Reading](reading.md)
+
 ## Class notes
 
 * [Week 1 (day 1)](./week01.md) -- 13 & 14 Sep
@@ -22,3 +26,4 @@
 * [Week 3](./week03.md) -- 27 & 28 Sep
   * [Observable Plot](https://observablehq.com/@observablehq/plot)
   * [Dashboard](https://observablehq.com/@mbostock/dashboard)
+* [Week 4](./week04.md) -- 4 & 5 Oct
