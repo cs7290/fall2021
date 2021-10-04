@@ -60,6 +60,7 @@ Telling a story with data
 
 ## Dashboards
 
+* [Plot II](./plot2.md)
 * See [week03.md](./week03.md)
 
 ## Plot tooltips
