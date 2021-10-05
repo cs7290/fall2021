@@ -4,7 +4,7 @@
 
 * Animation (Assignment 03 solution)
 * Telling a story (projects)
-* [Plot](./plot2.md) and Dashboard (continued from [week03.md](./week03.md))
+* Dashboards with [Plot](./plot2.md)
 
 ## Animation
 
@@ -52,24 +52,88 @@
 
 ## Projects
 
-Telling a story with data
+The purpose of the projects -- tell a story with data
 
-* Dashboards vs insights
-* Single-family: http://pbogden.com/single
-* Engaging stakeholders -- some options...
+* Dashboards vs Insights
+  * [Four Ways to Slice Obama's Budget](https://archive.nytimes.com/www.nytimes.com/interactive/2012/02/13/us/politics/2013-budget-proposal-graphic.html)
+* What is data visualization anyway?
+  * Case study: NYTimes article on the America's Cup
+  * Case study: http://pbogden.com/single
+  * Case study: Myth debunked
+* Engaging stakeholders for your project -- some options...
   * Update on [stinky](https://github.com/ds5110/stinky)
+    * Smell data
+    * Meteorological data
   * Update on [Service-Learning](https://communityengagement.northeastern.edu/programs/service-learning/)
   * Update on [observable-jupyter](https://github.com/thomasballinger/observable-jupyter)
+    * [robservable gallery](https://juba.github.io/robservable/articles/gallery.html)
+  * Do you have an idea for a project?
+    * Think about it...
 
-## Dashboards
+## Animation
 
-* [Plot II](./plot2.md)
-* See [week03.md](./week03.md)
+[animation.md](./animation.md) -- additional (advanced) comments about animation and Observable.
 
-## Plot tooltips
+## viewof
+
+* [Introduction to views](https://observablehq.com/@observablehq/introduction-to-views)
+  * In Observable, a view is a user interface element that directly controls a value in the notebook
+  * A view consists of 2 parts:
+    * the view itself, which is typically an interactive DOM element
+    * the value, which is any JavaScript value
+  * HTML input elements work by default as views for two reasons:
+    * they have a value property
+    * they emit input events when you interact with them
+    * [Input event](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/input_event) -- MDN
+      * this reference has a nice example that shows how it works in vanilla javascript
+      * it's fairly cumbersome, but it works
+  * [Observable Inputs](https://observablehq.com/@observablehq/inputs) are more convenient than native HTML
+    * Plus, you can create custom inputs
+    * For example, the map that behaves like an input element when you click on it
+      * It dispatches an "input" event when you do that (you can see it in the code)
+    * The silly emoticon is also an input element, and counter
+* [A Brief Introduction to viewof](https://observablehq.com/@observablehq/a-brief-introduction-to-viewof)
+  * This notebook provides a look under the hood of "viewof"
+  * It discusses the extra logic for dealing with "idiosyncrasies"
+
+## Dashboard
+
+* [Dashboard](https://observablehq.com/@mbostock/dashboard)
+  * Shows how to create a Dashboard with imported cells
+  * How do you create an interactive Dashboard (i.e., dashboard with interactive charts)?
+  * [Earthquake Dashboard](https://observablehq.com/@pbogden/earthquake-dashboard)
+* [Responsive design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
+  * describes this evolution of web page layouts to accommodate mobile devices
+  * explains the purpose of `<meta name="viewport" content="width=device-width,initial-scale=1">`
+  * introduces [CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids)
+  * [CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
+    * `python -m http.server`
+    * browse to http://localhost:8000/index3.html
+* With Observable Dashboard
+  * How do you set the width?
+  * How do you set the height?
+
+## Exercise
+
+* Start with https://observablehq.com/@mbostock/dashboard
+* Replace on of the charts with https://observablehq.com/@d3/world-airports
+* [Solution](./solution.md)
+
+## Interactive Plot in a Dashboard
+
+* [Plot Early Bird](https://observablehq.com/@fil/plot-early-bird)
+* [Plot.brush()](https://observablehq.com/@fil/plot-brush-71)
+  * [My Plot.brush()](https://observablehq.com/d/e92ee4710f38237f)
+* [My Dashboard with Plot.brush()](https://observablehq.com/d/0c28e2b73ff337d2)
+  * note the use of "viewof"
+
+## Observable Plot (Take 2)
 
 * Learning goals
+  * Practice with the Plot API 
   * Show how D3 is used to add CSS styles to Plots elements
+  * Explore where Plot is going
+* [Plot II](./plot2.md)
 * [Plot tooltip](https://observablehq.com/@mkfreeman/plot-tooltip) -- Mike Freeman
   * add a "title" attribute to any mark
   * addTooltips() is a function takes a chart as its first argument
