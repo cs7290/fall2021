@@ -6,6 +6,8 @@
 * Plot
 * Dashboard
 
+Note: We didn't get to Dashboards this week.
+
 ## Questions
 
 * Ask questions
@@ -87,7 +89,7 @@
 
 * [Introduction to HTML](https://observablehq.com/@observablehq/introduction-to-html)
   * [Observable standard library](https://observablehq.com/@observablehq/stdlib)
-  * Review the methods available on the standard library
+    * Review the methods available on the standard library
   * Shows how to create HTML elements and insert them in the DOM
     * For example, next few links from MDN show how to do it with HTML and vanilla JavaScript
     * [createElement](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
@@ -141,15 +143,15 @@
   * includes a list of built-in array methods -- you do NOT need D3 for these
   * [API reference](https://github.com/d3/d3-array#api-reference) is complementary and begins here
 * [Installing](https://github.com/d3/d3-array#installing)
-  * Various ways to include d3-array methods in your web page
-  * D3 (and d3-array) are part of Observable notebooks
+  * There are various ways to include d3-array methods in your web page
+  * D3 (and d3-array and d3-selection) are part of Observable notebooks
 
 ## Styling with CSS-like syntax
 
 * Learning goals
-  * Practice with d3-selection and d3-array
-  * Setting (possibly data-dependent) attribute values
-  * Styling nodes in an SVG using SVG attributes, CSS, or the SVG "style" attribute
+  * Introduction and practice with d3-selection and d3-array
+  * Styling nodes in an SVG using the CSS or the "style" attribute
+  * Setting attribute
 * Styling without D3 (the hard way)
   * [document.getElementsByClassName](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName)
   * [document.getElementsById](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
@@ -223,21 +225,3 @@ Style the [earthquakes](https://observablehq.com/@pbogden/earthquakes)
 * Create a new notebook -- import only what you need
 * Make the earthquakes pretty
 * Give them magnitude-dependent size
-
-## Dashboard
-
-* [Dashboard](https://observablehq.com/@mbostock/dashboard)
-* How to create an interactive Dashboard
-  * Responsive web pages
-  * Observable width
-* [Plot.brush()](https://observablehq.com/@fil/plot-brush-71)
-  * [My Plot.brush()](https://observablehq.com/d/e92ee4710f38237f)
-  * [Plot Early Bird](https://observablehq.com/@fil/plot-early-bird)
-* [My Dashboard with Plot.brush()](https://observablehq.com/d/0c28e2b73ff337d2)
-  * [CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
-  * [index3.html](./index3.html) is a grid demo
-  * Responsive web pages -- this demo is "responsive"
-    * width -- automatically set, height is computed
-    * In the notebook, these are layout parameters
-    * My notebook sends the brush selection, widths and heights back to the original.
-  * [A Brief Introduction to viewof](https://observablehq.com/@observablehq/a-brief-introduction-to-viewof)
