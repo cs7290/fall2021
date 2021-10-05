@@ -116,7 +116,7 @@ The purpose of the projects -- tell a story with data
 ## Exercise
 
 * Start with https://observablehq.com/@mbostock/dashboard
-* Replace on of the charts with https://observablehq.com/@d3/world-airports
+* Replace one of the charts with https://observablehq.com/@d3/world-airports
 * [Solution](./solution.md)
 
 ## Interactive Plot in a Dashboard
