@@ -8,7 +8,7 @@
   * It may be publicly-available or from another course you've taken.
   * You must have permission to use the data and share results. 
   * If you want ideas, look in [Introduction to Data](https://observablehq.com/@observablehq/introduction-to-data)
-    * The section on APIs lists several freely available sources
+    * The section on APIs lists several places to look. 
 * Visualization
   * Use Observable Plot to visualize the data in an Observable notebook.
   * Tell a story with the data.
