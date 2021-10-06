@@ -14,6 +14,6 @@
   * Tell a story with the data.
 * Extra credit
   * Make it an interactive [Dashboard](https://observablehq.com/@mbostock/dashboard)
-  * Although it's not necessary, you can use this a proposal for your term project.
+  * Although it's not necessary, you can use this as a proposal for your term project.
 * Provide feedback -- especially if you think we're going too fast!!
   * Ask questions in class or with piazza or during office hours (on Teams, Fridays, 2-4 ET) or by appointment on Teams.
