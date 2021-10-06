@@ -4,7 +4,7 @@
 * Due: Midnight on Monday, 11 Oct
   * Check Canvas for submission details
 * Data
-  * Find a dataset that you find interesting. 
+  * Find a dataset that you consider interesting. 
   * It may be publicly-available or from another course you've taken.
   * You must have permission to use the data and share results. 
   * If you want ideas, look in [Introduction to Data](https://observablehq.com/@observablehq/introduction-to-data)
