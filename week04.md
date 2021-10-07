@@ -4,7 +4,7 @@
 
 * Animation (Assignment 03 solution)
 * Telling a story (projects)
-* Dashboards with [Plot](./plot2.md)
+* Dashboards with Observable Plot
 
 ## Animation
 
