@@ -29,7 +29,7 @@
     * For now, it's okay to work individually on something of interest to you.
   * Visualization
     * Use Observable Plot to visualize the data in an Observable notebook.
-    * Tell a story with the data -- that story can a term-project proposal, which will require additional work.
+    * Tell a story with the data -- that story can a term-project **proposal**.
 * Extra credit
   * Make it an interactive [Dashboard](https://observablehq.com/@mbostock/dashboard)
   * Although it's not necessary, you can use this mini-project as a proposal for your term project.
