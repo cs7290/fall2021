@@ -13,10 +13,6 @@ Only 1 class this week -- Indigenous People's Day
 * Done through assignment 3
 * If you didn't ace assignment 03, then look at Canvas comments and resubmit
 * Really great when there's feedback on the challenges -- also great when there's experimenting
-* Major awards for Assignmenbt 04
-  * Tegan -- Described issues and found a zebra
-  * Zach -- Stinky dots on a Leaflet map
-  * Ian -- FDIC and Kennebec Savings
 
 ## Mini-Projects (one more week)
 
