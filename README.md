@@ -6,7 +6,7 @@
 * [Assignment 01](./assignment01.md) -- due 19 Sep
 * [Assignment 02](./assignment02.md) -- due 26 Sep
 * [Assignment 03](./assignment03.md) -- due 3 Oct
-* [Assignment 04](./assignment04.md) -- due 11 Oct
+* [Assignment 04](./assignment04.md) -- due ~11 Oct~ 18 Oct (deadline extended 1 week)
 
 ## Reading
 
