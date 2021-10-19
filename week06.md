@@ -2,6 +2,8 @@
 
 TODO: Copy solutions.md to the github site
 
+TODO: Distinguish stakeholder who helps craft a story with target audience
+
 ## Logistics
 
 * Suggestions in Observable, Links & Questions in Piazza (pls mark things as "resolved")
@@ -69,6 +71,11 @@ TODO: Copy solutions.md to the github site
     * [d3-array transformations](https://github.com/d3/d3-array#transformations)
     * [d3-array sets](https://github.com/d3/d3-array#sets)
     * [d3-array bins](https://github.com/d3/d3-array#bins)
+
+## In-class labs
+
+* [Lab #1](./lab01.md)
+* [Lab #2](./lab02.md)
 
 ## Case Study: Wrangling Wikipedia
 
