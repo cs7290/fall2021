@@ -1,8 +1,16 @@
 # Week 6
 
-TODO: Copy solutions.md to the github site
+## TODO
 
-TODO: Distinguish stakeholder who helps craft a story with target audience
+* Copy solutions.md to the github site
+* Distinguish stakeholder who helps craft a story from target audience
+* Discuss major award recipients
+* Discuss [projects](../projects.md)
+* Labs 1 & 2
+* A couple interesting notebooks
+  * [Vaccine-equity tracker](https://vax-equity-tracker.org/)
+    * Based on [Vaccine disaprities](https://observablehq.com/d/524cf5cb382b5e7e)
+  * [Interactive stock chart](https://observablehq.com/@analyzer2004/plot-stock-chart)
 
 ## Logistics
 
