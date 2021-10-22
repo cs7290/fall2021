@@ -2,6 +2,7 @@
 
 EDA with pet adoption data
 
+* To access the data, use `import {petAdoptions} from "7ffd902947c09896"`
 * [Poor Dogs](https://observablehq.com/d/9bb9f29652b5d52e) -- my notebook with solutions
 
 ## EXERCISES
