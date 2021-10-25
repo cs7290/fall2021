@@ -107,7 +107,7 @@ Reporting events with a mutable
 * EXERCISE: Use [mutable values](https://observablehq.com/@mbostock/mutable-values) to report event types and mouse location when clicking the button in the notebook.
 * SOLUTION: [Solution to Exercise 4](./exercises07.md#exercise-4)
 
-# Range Slider
+## Range Slider
 
 * Range slider -- history and current state
   * [Input: Range](https://observablehq.com/@observablehq/input-range) -- current state
