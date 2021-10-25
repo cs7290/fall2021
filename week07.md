@@ -141,5 +141,5 @@ Reporting events with a mutable
 
 ## Exercise 5
 
-* EXERCISE: Report events hovered element when moving the mouse over the brush.
+* EXERCISE: Report events and hovered element when moving the mouse over the brush.
 * SOLUTION: [Solution to Exercise 5](./exercises07.md#exercise-5)
