@@ -32,3 +32,4 @@
 * [Week 4](./week04.md) -- 4 & 5 Oct
 * [Week 5](./week05.md) -- 12 Oct
 * [Week 6](./week06.md) -- 18 & 19 Oct
+* [Week 7](./week07.md) -- 25 & 26 Oct
