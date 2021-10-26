@@ -102,44 +102,121 @@ Same as above, but without D3.
 
 ## Exercise 4
 
-Reporting events with a mutable
+Report events with a mutable
 
-* EXERCISE: Use [mutable values](https://observablehq.com/@mbostock/mutable-values) to report event types and mouse location when clicking the button in the notebook.
+* EXERCISE: Use [mutable values](https://observablehq.com/@mbostock/mutable-values) to report event types and mouse location when clicking the button in the [mutable values](https://observablehq.com/@mbostock/mutable-values) notebook.
 * SOLUTION: [Solution to Exercise 4](./exercises07.md#exercise-4)
+
+**STOPPED HERE ON MONDAY**
 
 ## Range Slider
 
-* Range slider -- history and current state
-  * [Input: Range](https://observablehq.com/@observablehq/input-range) -- current state
-    * Based entirely on web standards
-    * Built-in styling is browser-dependent
-    * There is no easy way to combine minimum & maximum values in same slider
-  * [Range slider](https://observablehq.com/@mootari/range-slider) -- min & max
-    * Min & max values in a single slider
-    * CSS styling mimics browser-dependent styles
-    * Browser-independent appearance (so you won't want to combine this with other inputs)
-  * Observable history
-    * [Inputs](https://observablehq.com/@tmcw/inputs/2) by tmcw
-    * [Inputs](https://observablehq.com/@jashkenas/inputs) by jashkenas
+Range slider -- history and current state
 
-## Hover
+* Observable inputs -- the history
+  * [Inputs](https://observablehq.com/@jashkenas/inputs) by jashkenas
+  * [Inputs](https://observablehq.com/@tmcw/inputs/2) by tmcw (adds a "cautious" option)
+* [Input: Range](https://observablehq.com/@observablehq/input-range) -- current state
+  * Good: Input elements based entirely on web standards
+  * Not so good: Built-in styling is browser-dependent
+  * Not so good: There is no easy way to adjust both the minimum & maximum values in a single input element
+* [Range slider](https://observablehq.com/@mootari/range-slider) -- min & max
+  * Good: Adjustable min & max of range in a single slider with optional styling
+  * Not so good: CSS styling mimics browser-dependent styles and behavior
+  * Not so good: Customizing CSS is a huge challenge
+  * Not so good: You need to do more work if you want to mimic browser-dependent styling of built-in input elements
+* QUESTION: Could you customize [Empty Brush Selection](https://observablehq.com/@d3/empty-brush-selection)
+and turn it into a 2-handle range slider?
+  * What sort of interactive functionality would you need?  HINT: See Exercise 5 (below)
+  * How would you style it? How hard would it be?  HINT: See Exercise 6 (below)
 
-* Detecting hover elements
-  * We can detect hovered elements using the ":hover" selector
-  * This allows us to detect hovered elements of the brush (note the order in which they're placed in the SVG)
+## :hover
+
+* [:hover](https://developer.mozilla.org/en-US/docs/Web/CSS/:hover) -- MDN
+  * The :hover CSS pseudo-class matches when the user interacts with an element with a pointing device, 
+  * But a `:hover` event does not necessarily activate the element.
+* [The `<style>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style)
+  * In-line styles take precedence over external CSS style sheets
+  * `style` attributes override even in-line styles.
+* [Multiple style elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style#multiple_style_elements)
+  * Multiple `<style>` and `<link>` elements are applied to the DOM in the order they are included in the document.
+  * This example shows how conflicting styles are resolved (last one wins)
+* Look at the styling and behavior or [Input: Range](https://observablehq.com/@observablehq/input-range)
+  * Color changes during hover and selection.
+  * Need to distinguish the handle and the channel
+* Styling hovered elements
+  * We can select hovered elements using the CSS ":hover" selector
+  * This allows us to identify hovered elements of the brush
+  * Note the order in which they're placed in the SVG.
   * Thing is, we want to change the color of elements underneath that we're using to visualize the slider"
     * So we do it with a little JavaScript
-* What you need to know
-  * [selection.call()](https://github.com/d3/d3-selection#selection_call) API reference -- github
-  * [*this* keyword](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this) -- MDN
+* [d3-brush events](https://github.com/d3/d3-brush#brush_on) -- github
+  * There are several types of "brush events"
+  * Listeners for these events are registered when you invoke `selection.call(brush, callback)`
+* [*brush(group)*](https://github.com/d3/d3-brush#_brush) API reference describes what happens.
+  * IMPORTANT: the brush creates the SVG elements necessary for display and to receive input events for interaction.
+  * The SVG elements can be modified, removed, styled, etc.
+  * As you can see from [Empty Brush Selection](https://observablehq.com/@d3/empty-brush-selection), "mousemove" add "mouseout" are being used to change the pointer style
+
+## Empty Brush Selection
+
+How it works
+
+* [D3 api reference](https://github.com/d3/d3/blob/main/API.md)
+  * Lays out the D3 hierarchy and links to the detailed API reference docs
+  * Come here if you want to find out what's going on
+* [d3.create("svg")](https://github.com/d3/d3-selection/blob/v3.0.0/README.md#create)
+  * It's part of [d3-selection](https://github.com/d3/d3-selection)
+* [d3.brushX](https://github.com/d3/d3-brush/blob/v3.0.0/README.md#brushX)
+  * [brush(group)](https://github.com/d3/d3-brush/blob/v3.0.0/README.md#_brush)
+    * applies brush to the specified group
+  * [brush.on(typenames, listener)](https://github.com/d3/d3-brush/blob/v3.0.0/README.md#brush_on)
+    * sets the event listener(s) for the specified typename(s) and returns the brush.
+* [d3-selection](https://observablehq.com/@d3/d3-selection-2-0?collection=@d3/d3-selection)
+  * [selection.append()](https://github.com/d3/d3-selection#selection_append)
+  * [selection.data()](https://github.com/d3/d3-selection#selection_data)
+    * Binds the specified array of data with the selected elements
+    * Returns a new selection that represents the update selection
+  * [selection.join()](https://github.com/d3/d3-selection#selection_join)
+    * This is the essence of the D in D3 -- Data-Driven Documents
+    * [Joining Data](https://github.com/d3/d3-selection#joining-data)
+    * [selection.join notebook](https://observablehq.com/@d3/selection-join)
+  * [selection.call()](https://github.com/d3/d3-selection#selection_call)
+  * [*this* keyword](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this) -- MDN 
   * [*this* values in Observable](https://observablehq.com/@tmcw/untitled/5)
     * What's "this"? -- it's used in the call to brushHandle()
   * [d3.arc](https://github.com/d3/d3-shape#arc) -- it's used for the brush handle
   * [d3-brush API reference](https://github.com/d3/d3-brush) -- github
     * The reference lays out the structure so you can "select" and modify it
     * [SVG layout of the brush](https://github.com/d3/d3-brush#_brush)
+    * There are several elements involved in event detection:
+      * `.overlay`
+      * `.handle--custom`
+      * `.selection`
+  * Bubbling and capture of events
+    * [Introduction to Events](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
+    * Q: Why do I care? A: Becuase event bubbling in the DOM means that some DOM elements won't know about events.
+    * And sometimes events can be prevented from bubbling all the way up to the DOM
+  * [Event Bubble and Capture](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#event_bubbling_and_capture) -- MDN
+    * Nice example showing what happens during capturing and bubbling phases of a click event.
+    * Also shows the hierarchy of nested div elements with hover-dependent fill
+* [User Manual](https://observablehq.com/@observablehq/user-manual) -- collection of good stuff
 
 ## Exercise 5
 
-* EXERCISE: Report events and hovered element when moving the mouse over the brush.
+Report mouse events and `hover:`ed elements.
+
+* EXERCISE: Adapt the [Empty Brush Selection](https://observablehq.com/@d3/empty-brush-selection) to
+report [mouse events](https://developer.mozilla.org/en-US/docs/Web/API/Element#mouse_events) 
+and "[:hover](https://developer.mozilla.org/en-US/docs/Web/CSS/:hover)"ed element with a mutable.
+Report event types and identify the specific element being hovered.
 * SOLUTION: [Solution to Exercise 5](./exercises07.md#exercise-5)
+
+## Exercise 6
+
+Custom brush styling.
+
+* EXERCISE: Adapt the [Empty Brush Selection](https://observablehq.com/@d3/empty-brush-selection) so that it looks like a 2-handle range slider.
+  * Hint: First remove the data and axes, then add the blue & gray slider channels.
+  * Note: This is worth doing in class -- debugging errors encountered in the solution could be informative.
+* SOLUTION: [Solution to Exercise 6](./exercises07.md#exercise-6)
