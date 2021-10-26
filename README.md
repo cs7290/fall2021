@@ -9,6 +9,7 @@
 * [Assignment 04](./assignment04.md) -- due ~11 Oct~ (due date extended 1 week)
 * [Assignment 05](./assignment05.md) -- due 18 Oct (Assignment 04 has been extended to this due date)
 * [Assignment 06](./assignment06.md) -- due 24 Oct
+* [Assignment 07](./assignment07.md) -- due 31 Oct
 
 ## Reading
 
