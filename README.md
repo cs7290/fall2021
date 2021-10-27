@@ -6,7 +6,10 @@
 * [Assignment 01](./assignment01.md) -- due 19 Sep
 * [Assignment 02](./assignment02.md) -- due 26 Sep
 * [Assignment 03](./assignment03.md) -- due 3 Oct
-* [Assignment 04](./assignment04.md) -- due 11 Oct
+* [Assignment 04](./assignment04.md) -- due ~11 Oct~ (due date extended 1 week)
+* [Assignment 05](./assignment05.md) -- due 18 Oct (Assignment 04 has been extended to this due date)
+* [Assignment 06](./assignment06.md) -- due 24 Oct
+* [Assignment 07](./assignment07.md) -- due 31 Oct
 
 ## Reading
 
@@ -28,3 +31,6 @@
   * [Observable Plot](https://observablehq.com/@observablehq/plot)
   * [Dashboard](https://observablehq.com/@mbostock/dashboard)
 * [Week 4](./week04.md) -- 4 & 5 Oct
+* [Week 5](./week05.md) -- 12 Oct
+* [Week 6](./week06.md) -- 18 & 19 Oct
+* [Week 7](./week07.md) -- 25 & 26 Oct

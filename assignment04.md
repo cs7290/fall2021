@@ -1,7 +1,7 @@
 
 # ASSIGNMENT 04 -- Mini-Project
 
-* Due: Midnight on Monday, 11 Oct
+* Due: Midnight on Monday, ~11 Oct~ 18 Oct (note: revised due date)
   * Check Canvas for submission details
 * Data
   * Find a dataset that you consider interesting.
