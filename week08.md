@@ -20,6 +20,7 @@ Introduction to data-join with [d3-selection](https://github.com/d3/d3-selection
 
 Introduction to [d3-geo](https://github.com/d3/d3-geo) and mapping with D3
 
+* [d3-geo](https://observablehq.com/collection/@d3/d3-geo) -- the collection
 * [choropleth.md](./choropleth.md)
 
 ## Exercises
