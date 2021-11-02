@@ -17,7 +17,7 @@
 
 ## Reading
 
-[Reading](reading.md)
+* [Reading](reading.md)
 
 ## Class notes
 
