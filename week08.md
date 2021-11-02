@@ -7,7 +7,7 @@
 
 ## Project plans
 
-* See [projects.md](../projects.md)
+* See [projects.md](./projects.md)
 
 ## data join
 
