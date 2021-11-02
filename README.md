@@ -11,6 +11,10 @@
 * [Assignment 06](./assignment06.md) -- due 24 Oct
 * [Assignment 07](./assignment07.md) -- due 31 Oct
 
+## Projects
+
+* [Projects](./projects.md) -- milestones and due dates
+
 ## Reading
 
 [Reading](reading.md)
