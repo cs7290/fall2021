@@ -59,7 +59,7 @@ Tile providers
 * [Stamen maps](http://maps.stamen.com/#terrain/12/37.7706/-122.3782)
   * Has example maps, instructions for using tile URLs
 
-## IN-CLASS EXERCISE
+## In-Class Exercise
 
 Change tile source in Leaflet
 
