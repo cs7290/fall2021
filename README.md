@@ -40,3 +40,4 @@
 * [Week 6](./week06.md) -- 18 & 19 Oct
 * [Week 7](./week07.md) -- 25 & 26 Oct
 * [Week 8](./week08.md) -- 1 & 2 Nov
+* [Week 9](./week09.md) -- 8 & 9 Nov
