@@ -10,6 +10,7 @@
 * [Assignment 05](./assignment05.md) -- due 18 Oct (Assignment 04 has been extended to this due date)
 * [Assignment 06](./assignment06.md) -- due 24 Oct
 * [Assignment 07](./assignment07.md) -- due 31 Oct
+* [Assignment 08](./assignment08.md) -- due 7 Nov
 
 ## Projects
 
