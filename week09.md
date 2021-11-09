@@ -80,9 +80,7 @@ Tile providers
 
 ## In-class Exercise -- D3 + Leaflet + Stamen
 
-Change tile source in Leaflet
-
-* Add one of the Stamen tiles to [D3 + Leaflet](https://observablehq.com/@pbogden/d3-leaflet)
+* Use Stamen tiles in [D3 + Leaflet](https://observablehq.com/@pbogden/d3-leaflet)
 * Solution: [leaflet.md](./leaflet.md)
 
 ## Leaflet & OSM
