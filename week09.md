@@ -1,18 +1,11 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> d9237ecdf2f635d4651b45025ddc8d247bc630bb
 # Week 09
 
 Geospatial data-viz with slippy maps
 
-<<<<<<< HEAD
 * D3 & SVG basics
 * Leaflet extensions/customization
 * OSM data viz 
 
-=======
->>>>>>> d9237ecdf2f635d4651b45025ddc8d247bc630bb
 ## Applications
 
 Believe it or not, there's more to it than than sliders and tooltips.
@@ -46,11 +39,8 @@ Quick overview of the range-slider (from brush) solution (assignment due last we
 * NO DETAIL YET.
 * [assignment07_solution.md](./assignment07_solution.md)
 
-<<<<<<< HEAD
 **STOPPED HERE ON MONDAY**
 
-=======
->>>>>>> d9237ecdf2f635d4651b45025ddc8d247bc630bb
 ## Choropleth w/tooltip
 
 * This assignment was due 6 Nov -- had a few perfect 10s
@@ -63,7 +53,6 @@ Quick overview of the range-slider (from brush) solution (assignment due last we
 Add a tooltip to [D3 + Leaflet](https://observablehq.com/@pbogden/d3-leaflet)
 
 * Hint: Follow this closely -- [Plot Tooltip](https://observablehq.com/@mkfreeman/plot-tooltip)
-<<<<<<< HEAD
 * It should be really easy.
 * Solution: [leaflet.md](./leaflet.md)
 
@@ -73,16 +62,12 @@ Add a tooltip to [D3 + Leaflet](https://observablehq.com/@pbogden/d3-leaflet)
 * Hint: follow this closely -- [Plot Color Legend](https://observablehq.com/@ambassadors/plot-color-legend)
   * Maybe avoid doing this as an in-class exercise.
 * Solution: [leaflet.md](./leaflet.md)
-=======
-* [D3 + Leaflet + Tooltip](https://observablehq.com/d/7111ad3d30aee012)
->>>>>>> d9237ecdf2f635d4651b45025ddc8d247bc630bb
 
 ## Raster tiles
 
 Tile providers
 
 * [Raster Tiles](https://observablehq.com/@d3/raster-tiles?collection=@d3/d3-tile)
-<<<<<<< HEAD
   * Uses [d3-tile](https://github.com/d3/d3-tile)
   * Includes a list of map tile providers
   * It's worth understanding how this works, because you can use it to modify the URLs for Leaflet
@@ -95,7 +80,9 @@ Tile providers
 
 ## In-class Exercise -- D3 + Leaflet + Stamen
 
-* Use Stamen tiles in [D3 + Leaflet](https://observablehq.com/@pbogden/d3-leaflet)
+Change tile source in Leaflet
+
+* Add one of the Stamen tiles to [D3 + Leaflet](https://observablehq.com/@pbogden/d3-leaflet)
 * Solution: [leaflet.md](./leaflet.md)
 
 ## Leaflet & OSM
@@ -108,19 +95,3 @@ Tile providers
   * If you return everything, then make sure to use a very small domain
   * You can filter your query using the Overpass query language
   * [Overpass API by example](https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_API_by_Example)
-=======
-  * Uses [d3-tile](https://github.com/d3/d3-tile) with a list of map tile providers
-* [Stamen maps](http://maps.stamen.com/#terrain/12/37.7706/-122.3782)
-  * Has example maps, instructions for using tile URLs
-
-## In-Class Exercise
-
-Change tile source in Leaflet
-
-* Use a tile source in [Raster Tiles](https://observablehq.com/@d3/raster-tiles?collection=@d3/d3-tile)
-  * Extract the URLs to use with Leaflet
-
-## Leaflet & OSM
-
-* [OSM Data Viz](https://observablehq.com/@pbogden/osm-data-viz)
->>>>>>> d9237ecdf2f635d4651b45025ddc8d247bc630bb
