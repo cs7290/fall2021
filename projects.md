@@ -11,7 +11,7 @@ Milestones and due dates
 * Stakeholder feedback after reviewing Prototype #1 -- 14 Nov
   * Short writeup (1-page maximum) with feedback and planned revisions
 * Prototype #2 -- 21 Nov
-  * submit a unique URL -- with revied "story"
+  * submit a unique URL -- with revised "story"
 * Stakeholder feedback after reviewing prototype #2 -- 5 Dec
   * Short 1-page writeup with feedback and planned revisions
   * Include a plan for final deployment
