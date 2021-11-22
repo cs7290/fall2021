@@ -42,3 +42,4 @@
 * [Week 8](./week08.md) -- 1 & 2 Nov
 * [Week 9](./week09.md) -- 8 & 9 Nov
 * [Week 10](./week10.md) -- 15 & 16 Nov
+* [Week 11](./week11.md) -- 22 & 23 Nov
