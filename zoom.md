@@ -24,3 +24,25 @@ Modify the scatterplot tour to use the [Palmer Penguins](https://github.com/alli
   ```
   * This will zoom to the species, but the initial "Overview" won't include any of the data.
     * That's because the original dataset was created with parameters that included the origin.
+* Second, set the intial zoom according to the data parameters (not the identity)
+  * You can pull out the "overview" zoom and computed it from the data
+  * The "transforms" cell changes to the following
+  ```
+  transforms = {
+    const [x0, x1] = d3.extent(data, d => d[0]).map(x);
+    const [y1, y0] = d3.extent(data, d => d[1]).map(y);
+    const k = 0.9 * Math.min(width / (x1 - x0), height / (y1 - y0));
+    const tx = (width - k * (x0 + x1)) / 2;
+    const ty = (height - k * (y0 + y1)) / 2;
+    const overview = ["Overview", d3.zoomIdentity.translate(tx, ty).scale(k)];
+  
+    return [overview].concat(d3.groups(data, d => d[2]).map(([key, data]) => {
+      const [x0, x1] = d3.extent(data, d => d[0]).map(x);
+      const [y1, y0] = d3.extent(data, d => d[1]).map(y);
+      const k = 0.9 * Math.min(width / (x1 - x0), height / (y1 - y0));
+      const tx = (width - k * (x0 + x1)) / 2;
+      const ty = (height - k * (y0 + y1)) / 2;
+      return [`Cluster ${key}`, d3.zoomIdentity.translate(tx, ty).scale(k)];
+    }))
+  }
+  ```
