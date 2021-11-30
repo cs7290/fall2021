@@ -23,11 +23,11 @@ into the dashboard example. Replace the chart with the map, and the hard-coded t
 
 * Create your own fork of https://observablehq.com/@observablehq/noaa-weather-data-by-major-u-s-city
 * Copy "orig.html" to "second.html"
-* Remove the code you don't need, including:
-  * Replace the `<canvas>` element with a `<div id="myChart">` that will contain the chart
-  * Replace the `<table>` element with a `<div id="myTable">` that will contain the chart
-  * The `<script>` tags containing Chart.js and feather.min.js
-  * "dashboard.js", which is used only for the demo chart
+* Remove/replace the code you don't need, including:
+  * Replace the `<canvas>` element with a `<div id="myChart"></div>` that will contain the chart
+  * Replace the `<table>` element with a `<div id="myTable"></div>` that will contain the chart
+  * Remove the `<script>` tags containing Chart.js and feather.min.js
+  * Remove "dashboard.js", which is used only for the demo chart
   * The code should look like this...
   ```
   <div class="my-4 w-100" id="myChart">
