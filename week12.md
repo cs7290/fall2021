@@ -109,4 +109,24 @@ Make the chart (map) responsive.
 
 * [Solution](./dashboard.md#exercise-4-responsive-chart)
 
-**Solution:** http://localhost:8000/
+**Solution:** http://localhost:8000/fourth.html
+
+## Exercise #5: Search input
+
+Add the search input to the dashboard
+
+* [Solution](./dashboard.md#exercise-5-search-input)
+
+**Solution:** http://localhost:8000/fifth.html
+
+## Exercise #6: Multi-page app
+
+Create a multi-page app from one of the bootstrap examples.
+
+**Solution:** 
+```
+$ cd basic
+$ python -m http.server
+```
+Browse to: http://localhost:8000/
+
