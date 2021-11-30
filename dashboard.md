@@ -63,3 +63,49 @@ const main = new Runtime().module(notebook, name => {
 
 **Solution: http://localhost:8000/second.html**
 
+## Exercise #3: Responsive table
+
+Make the table responsive.
+
+* In the notebook, you could create a cell that sets the class of the table
+```
+myclasses = d3.select(viewof citySelected).select('table').classed("table", true)
+```
+* Then in the "second.html" file, you'd need to add the following line when setting up the runtime.
+```
+if (name === "myclasses") return true;
+```
+* If you make these two changes and reload, you should see that the table is the correct width.
+
+**Solution: http://localhost:8000/third.html**
+
+## Exercise #4: Responsive chart
+
+Make the chart (map) responsive.
+
+* To make the map the correct size when the window loads, first get a reference to the main module...
+```
+const main = new Runtime().module(notebook, name => {
+```
+then override the width
+```
+main.redefine("width", document.getElementById("myChart").offsetWidth);
+```
+* To get the map to resize whenver the window changes size, create an event listener for "resize" events.
+* Use [`window.onresize`](https://developer.mozilla.org/en-US/docs/Web/API/Window/resize_event).
+* For a demo, add the following code, then open the dev console and change the window size...
+```
+let i = 0;
+window.onresize = () => console.log("I've been resized " + i++);
+```
+* So, define a function that overrides `width` using the size of the container div:
+```
+const resetWidth = () => main.redefine("width", document.getElementById("myChart").offsetWidth);
+```
+* Then use `window.onresize` to set the width according to the layout...
+```
+resetWidth();
+window.onresize = resetWidth;
+```
+
+**Solution:** http://localhost:8000
