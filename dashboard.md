@@ -15,7 +15,7 @@ Get the bootstrap dashboard example running locally on your machine.
 
 **Solution: http://localhost:8000/orig.html**
 
-## Exercise #2 -- Embedded cells
+## Exercise #2: Embedded cells
 
 Put the map and the table from
 [NOAA weather data by major U.S. city](https://observablehq.com/@observablehq/noaa-weather-data-by-major-u-s-city)
@@ -107,5 +107,40 @@ const resetWidth = () => main.redefine("width", document.getElementById("myChart
 resetWidth();
 window.onresize = resetWidth;
 ```
+**Solution:** http://localhost:8000/fourth.html
 
-**Solution:** http://localhost:8000
+## Exercise #5: Search input
+
+Add the search input to the navigation bar.
+
+* This is a bit more complicated because Observable's [Input: Search](https://observablehq.com/@observablehq/input-search)
+is a combination of HTML elements. The bootstrap template puts an input element in the header...
+```
+<input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search"> -->
+```
+* We replace it with a DIV container that includes some bootstrap form classes:
+```
+<!-- Put form control here -->
+<div id="mySearch" class="form-control form-control-dark"></div>
+```
+* When we render the cells, add the cell name for the search input in the notebook
+```
+if (name === "viewof filteredCities") return  Inspector.into("#mySearch")();
+```
+* We can experiment with class labels and bootstrap styling in the dev console.  For example
+```
+document.getElementById("mySearch").getElementsByTagName("input")[0].classList.add("form-control");
+```
+  However, we can't simply add this line in the HTML file because the notebook loads asyncronously.
+  You'll get an error that the "input" element is undefined.
+* Therefore, to get the styling correct, we need to add some bootstrap classes in the observable notebook.
+  This is complicated because the Observable styling and the bootstrap classes conflict with one another.
+  As a result, you need several adjustments...
+```
+myclasses = {
+  d3.select(viewof citySelected).select('table').classed("table", true);
+  d3.select(viewof filteredCities).select('input')
+    .classed("form-control", true).classed("w-100", true).classed('form-control-dark', true);
+  d3.select(viewof filteredCities).style("--input-width", "100%");
+}
+```
