@@ -53,3 +53,32 @@ penguins = d3.csv("https://raw.githubusercontent.com/allisonhorst/palmerpenguins
 
 Color the penguins by Species
 
+### Solution
+
+"The ScatterGL constructor can accept a number of parameters via a ScatterGLParams object."
+(quoted from the API reference)
+
+* Get the species names
+```
+species = [...new Set(penguins.map(d => d.species))] // using "spread syntax"
+```
+* Define a callback function `pointColorer` as per the API reference documentation
+```
+  function pointColorer(i, selected, hover) {
+    return (i == hover) ? "#ff0000" : d3.schemeCategory10[species.indexOf(penguins[i].species)];
+  }
+```
+* Instantiate ScatterGL with a parameters object that includes `pointColorer`
+  * Change: 
+  ```
+  const scattergl = new ScatterGL(div)
+  ```
+  * to:
+  ```
+  const scatterGL = new ScatterGL(div, {pointColorer: pointColorer});
+  ```
+
+## Exercise #3 -- Change color on hover
+
+Make the hovered circle change to black on hover.
+
